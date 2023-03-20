@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style/style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="contenedor-tota">
+        <header class="header" id="inicio">
+            <a href="#" class="logo"><i class='bx bxs-store'></i> Home<span>.</span></span></a>
+            <div class="ubicacion">
+                <button type="button" class="ubicacion-btn"><i class='bx bx-map'></i> Ubicacion </button>
+            </div>
+            <nav class="menu-navegacion">
+                <a href="#promociones"> Promociones </a>
+                <a href="#menu"> Menu </a>
+                <a href="#popular"> Popular </a>
+                <a href="#unete"> Unete </a>
+                <a href="#categorias"> Categorias </a>
+                <a href="#nosotros"> Nosotros </a>
+                <a href="#contacto"> Contacto </a>
+            </nav>
+            <div class="buscar">
+                <input type="text" placeholder="Buscar">
+                <div class="btn">
+                    <i class='bx bx-search'></i>
+                </div>
+            </div>
+            <div class="icons">
+                <i class='bx bx-menu' id="menu-bars"></i>
+                <a href="#" class='bx bxs-user-circle'></a>
+                <a href="#" class='bx bxs-cart-alt'></a>
+            </div>
+        </header>
+
+        <main class="principal">
+            <section class="promociones" id="promociones">
+                <div class="swiper promociones-slider">
+                    <div class=" swiper-wrapper wrapper">
+                        <div class="swiper-slide slide">
+                            <div class=" content">
+                                <span> Nuestro plato especial </span>
+                                <h3> Costillas asadas </h3>
+                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+                                </p>
+                                <a href="#" class="btn-pe"> Pedir </a>
+                            </div>
+                            <div class="imagen">
+                                <img src="img/alexandru-bogdan-ghita-UeYkqQh4PoI-unsplash.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                            <div class="content">
+                                <span> Nuestro plato especial </span>
+                                <h3> Pizza napolitana </h3>
+                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+                                </p>
+                                <a href="#" class="btn-pe"> Pedir </a>
+                            </div>
+                            <div class="imagen">
+                                <img src="img/aurelien-lemasson-theobald-x00CzBt4Dfk-unsplash.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide slide">
+                            <div class="content">
+                                <span> Nuestro plato especial </span>
+                                <h3> Cerveza </h3>
+                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+                                </p>
+                                <a href="#" class="btn-pe"> Pedir </a>
+                            </div>
+                            <div class="imagen">
+                                <img src="img/gerrie-van-der-walt-2uSnxq3M4GE-unsplash.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+            <section class="promociones" id="popular">
+                <h3 class="sub-titulo"> Producto </h3>
+                <h1 class="popular"> Producto popular </h1>
+                <div class="box-contaier"> 
+                    <div class="box">
+                        <a href="#" class='bx bxs-heart'></a>
+                        <a href="#" class='bx bxs-show'></a>
+                        <img src="img/call-me-hangry-hoUmVcrsCVU-unsplash.jpg" alt="">
+                        <h3> Probar </h3>
+                        <div class="strellas">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <span> $30.000 </span>
+                        <a href="#" class="btn-pe"> Agregar </a>
+                    </div>
+                    <div class="box">
+                        <a href="#" class='bx bxs-heart'></a>
+                        <a href="#" class='bx bxs-show'></a>
+                        <img src="img/call-me-hangry-HP9vpVGq-WA-unsplash.jpg" alt="">
+                        <h3> Probar </h3>
+                        <div class="strellas">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <span> $30.000 </span>
+                        <a href="#" class="btn-pe"> Agregar </a>
+                    </div>
+                    <div class="box">
+                        <a href="#" class='bx bxs-heart'></a>
+                        <a href="#" class='bx bxs-show'></a>
+                        <img src="img/anna-pelzer-IGfIGP5ONV0-unsplash.jpg" alt="">
+                        <h3> Probar </h3>
+                        <div class="strellas">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <span> $30.000 </span>
+                        <a href="#" class="btn-pe"> Agregar </a>
+                    </div>
+                    <div class="box">
+                        <a href="#" class='bx bxs-heart'></a>
+                        <a href="#" class='bx bxs-show'></a>
+                        <img src="img/ca-creative-bpPTlXWTOvg-unsplash.jpg" alt="">
+                        <h3> Probar </h3>
+                        <div class="strellas">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <span> $30.000 </span>
+                        <a href="#" class="btn-pe"> Agregar </a>
+                    </div>
+                    <div class="box">
+                        <a href="#" class='bx bxs-heart'></a>
+                        <a href="#" class='bx bxs-show'></a>
+                        <img src="img/farhad-ibrahimzade-KpOl9jV2aJM-unsplash.jpg" alt="">
+                        <h3> Probar </h3>
+                        <div class="strellas">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <span> $30.000 </span>
+                        <a href="#" class="btn-pe"> Agregar </a>
+                    </div>
+                    <div class="box">
+                        <a href="#" class='bx bxs-heart'></a>
+                        <a href="#" class='bx bxs-show'></a>
+                        <img src="img/gerrie-van-der-walt-2uSnxq3M4GE-unsplash.jpg" alt="">
+                        <h3> Probar </h3>
+                        <div class="strellas">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <span> $30.000 </span>
+                        <a href="#" class="btn-pe"> Agregar </a>
+                    </div>
+                    <div class="box">
+                        <a href="#" class='bx bxs-heart'></a>
+                        <a href="#" class='bx bxs-show'></a>
+                        <img src="img/henry-fournier-xcDrhb4mhLA-unsplash.jpg" alt="">
+                        <h3> Probar </h3>
+                        <div class="strellas">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <span> $30.000 </span>
+                        <a href="#" class="btn-pe"> Agregar </a>
+                    </div>
+                    <div class="box">
+                        <a href="#" class='bx bxs-heart'></a>
+                        <a href="#" class='bx bxs-show'></a>
+                        <img src="img/louis-hansel-880b45lhxCo-unsplash.jpg" alt="">
+                        <h3> Probar </h3>
+                        <div class="strellas">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <span> $30.000 </span>
+                        <a href="#" class="btn-pe"> Agregar </a>
+                    </div>
+                    <div class="box">
+                        <a href="#" class='bx bxs-heart'></a>
+                        <a href="#" class='bx bxs-show'></a>
+                        <img src="img/louis-hansel-zbqWr6u-sSk-unsplash.jpg" alt="">
+                        <h3> Probar </h3>
+                        <div class="strellas">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <span> $30.000 </span>
+                        <a href="#" class="btn-pe"> Agregar </a>
+                    </div>
+                    <div class="box">
+                        <a href="#" class='bx bxs-heart'></a>
+                        <a href="#" class='bx bxs-show'></a>
+                        <img src="img/nick-karvounis-YmyFBvW7oG8-unsplash.jpg" alt="">
+                        <h3> Probar </h3>
+                        <div class="strellas">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <span> $30.000 </span>
+                        <a href="#" class="btn-pe"> Agregar </a>
+                    </div>
+                    <div class="box">
+                        <a href="#" class='bx bxs-heart'></a>
+                        <a href="#" class='bx bxs-show'></a>
+                        <img src="img/davey-gravy-LqG-Tmdo4pc-unsplash.jpg" alt="">
+                        <h3> Probar </h3>
+                        <div class="strellas">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <span> $30.000 </span>
+                        <a href="#" class="btn-pe"> Agregar </a>
+                    </div>
+                    <div class="box">
+                        <a href="#" class='bx bxs-heart'></a>
+                        <a href="#" class='bx bxs-show'></a>
+                        <img src="img/camden-hailey-george-C0nO_LewS-k-unsplash.jpg" alt="">
+                        <h3> Probar </h3>
+                        <div class="strellas">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <span> $30.000 </span>
+                        <a href="#" class="btn-pe"> Agregar </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
